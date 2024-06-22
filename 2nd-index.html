@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+   <title>FLOOR</title>
+   <link rel="icon" type="image/x-icon" href="">
+   <!------------------- CUSTOM CSS LINK START -------------------->
+   <link rel="stylesheet" type="text/css" href="assets/css/custom/style.css">
+   <!------------------- CUSTOM CSS LINK COMPLETED -------------------->
+   <!------------------- BOOTSTRAP-VERSION 5.0.2 CSS LINK START -------------------->
+   <link href="assets/css/bootstrap-5.0.2/bootstrap-min.css" rel="stylesheet" />
+   <!------------------- BOOTSTRAP-VERSION 5.0.2 CSS LINK COMPLETED -------------------->
+</head>
+
+<body>
+   <!------------------------------- MAIN SECTION START -------------------------------->
+   <section class="main">
+      <div class="jumbotron">
+         <div class="second-floor">
+             <div class="image mx-auto">
+                 <img src="assets/images/2nd/2ND.jpg" alt="">
+                 <div class="image-cctv">
+                     <img src="assets/images/2nd/2ND-ALL.png" alt="">
+                 </div>
+                 <div class="image-cctv">
+                     <img id="cctvImageGlow" src="assets/images/2nd/2ND-CCTV-GLOW.png" alt="">
+                 </div>
+                 <div class="image-cctv">
+                     <img id="cctvImageRedGlow" src="assets/images/2nd/2ND-CCTV-RED-GLOW.png" alt="">
+                 </div>
+                 <div class="image-cctv">
+                     <img id="lanImageGlow" src="assets/images/2nd/2ND-LAN-GLOW.png" alt="">
+                 </div>
+                 <div class="image-cctv">
+                     <img id="wifiImageGlow" src="assets/images/2nd/2ND-WIFI-GLOW.png" alt="">
+                 </div>
+             </div>
+             <div class="box">
+                 <div class="cctv-btn d-flex">
+                     <button class="d-flex" onclick="toggleImage('cctvImageGlow')">
+                         <img src="assets/images/CCTV-btn.png" alt=""> CCTV
+                     </button>
+                     <button class="d-flex" onclick="toggleImage('cctvImageRedGlow')">
+                         <img src="assets/images/2nd/2ND-CCTV-RED.png" alt=""> Red CCTV
+                     </button>
+                     <button class="d-flex" onclick="toggleImage('lanImageGlow')">
+                         <img src="assets/images/2nd/2ND-LAN-GLOW.png" alt=""> Lan
+                     </button>
+                     <button class="d-flex" onclick="toggleImage('wifiImageGlow')">
+                         <img src="assets/images/2nd/2ND-WIFI-GLOW.png" alt=""> Wifi
+                     </button>
+                 </div>
+             </div>
+         </div>
+     </div>
+   </section>
+   <!------------------------------- MAIN SECTION COMPLETED -------------------------------->
+
+
+   <!------------------- SCRIPT FOR BOOTSRAP-VERSION 5.0.2 START -------------------->
+   <script src="assets/js/bootstrap-5.0.2-bundle/bootstrap-bundle-min.js"></script>
+   <!------------------- SCRIPT FOR BOOTSRAP-VERSION 5.0.2 COMPLETED -------------------->
+
+   <!------------------- SCRIPT FOR MAIN START -------------------->
+   <script src="assets/js/main/main.js"></script>
+   <!------------------- SCRIPT FOR MAIN COMPLETED -------------------->
+</body>
+
+</html>
