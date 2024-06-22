@@ -4,17 +4,18 @@ function toggleImage(imageId) {
     var langlowImage = document.getElementById('lanImageGlow');
     var wifiglowImage = document.getElementById('wifiImageGlow');
 
-    // Hide all images
-    cctvglowImage.style.display = 'none';
-    cctvredglowImage.style.display = 'none';
-    langlowImage.style.display = 'none';
-    wifiglowImage.style.display = 'none';
-
-    // Toggle the selected image
     var selectedImage = document.getElementById(imageId);
-    if (selectedImage.style.display === 'none' || selectedImage.style.display === '') {
-        selectedImage.style.display = 'block';
-    } else {
+
+    // Check if the selected image is currently displayed
+    if (selectedImage.style.display === 'block') {
+        // If it's displayed, hide it
         selectedImage.style.display = 'none';
+    } else {
+        // If it's not displayed, hide all images and show the selected image
+        cctvglowImage.style.display = 'none';
+        cctvredglowImage.style.display = 'none';
+        langlowImage.style.display = 'none';
+        wifiglowImage.style.display = 'none';
+        selectedImage.style.display = 'block';
     }
 }
