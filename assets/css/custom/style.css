@@ -361,14 +361,14 @@ section.main .jumbotron {
 .modal {
   display: none; 
   z-index: 1;
-  padding-top: 10rem; 
+  padding-top: 2rem; 
   background-color: #00000050;
 }
 .modal-content {
   position: relative;
   margin: auto;
-  padding: 1.5rem 1rem;
-  width: 60% !important;
+  padding: 1rem 3rem;
+  width: 40% !important;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   animation-name: animatetop;
   animation-duration: 0.4s
