@@ -4,7 +4,6 @@ function toggleImage(imageId) {
     var langlowImage = document.getElementById('lanImageGlow');
     var wifiglowImage = document.getElementById('wifiImageGlow');
     var telephoneglowImage = document.getElementById('telephoneImageGlow');
-    var racglowImage = document.getElementById('racImageGlow');
 
     var selectedImage = document.getElementById(imageId);
 
@@ -19,7 +18,6 @@ function toggleImage(imageId) {
         langlowImage.style.display = 'none';
         wifiglowImage.style.display = 'none';
         telephoneglowImage.style.display = 'none';
-        racglowImage.style.display = 'none';
         
         selectedImage.style.display = 'block';
     }
