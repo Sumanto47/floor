@@ -216,7 +216,7 @@ section.main .jumbotron {
 .top-bar {
 	position: absolute;
     top: 18px;
-    right: -108px;
+    right: -109px;
     height: auto;
     width: 250px;
 	background: #fff;
@@ -230,7 +230,7 @@ section.main .jumbotron {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: nowrap;
-	padding: 3.8rem 0;
+	padding: 0.2rem 0;
 }
 
 .box .cctv-btn {
