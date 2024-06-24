@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+   <title>2ND FLOOR</title>
+   <link rel="icon" type="image/x-icon" href="">
+   <!------------------- CUSTOM CSS LINK START -------------------->
+   <link rel="stylesheet" type="text/css" href="assets/css/custom/style.css">
+   <!------------------- CUSTOM CSS LINK COMPLETED -------------------->
+   <!------------------- BOOTSTRAP-VERSION 5.0.2 CSS LINK START -------------------->
+   <link href="assets/css/bootstrap-5.0.2/bootstrap-min.css" rel="stylesheet" />
+   <!------------------- BOOTSTRAP-VERSION 5.0.2 CSS LINK COMPLETED -------------------->
+</head>
+
+<body>
+   <!------------------------------- MAIN SECTION START -------------------------------->
+   <section class="main">
+      <div class="jumbotron">
+         <div class="floor">
+            <div class="image mx-auto">
+               <!---------------------- IMG-PORTION --------------------------->
+               <img src="assets/images/2nd/2ND.jpg" alt="">
+               <div class="image-cctv">
+                  <img src="assets/images/2nd/2ND-ALL.png" alt="">
+               </div>
+               <div class="image-cctv">
+                  <img id="cctvImageGlow" src="assets/images/2nd/2ND-CCTV-GLOW.png" alt="">
+               </div>
+               <div class="image-cctv">
+                  <img id="cctvImageRedGlow" src="assets/images/2nd/2ND-CCTV-RED-GLOW.png" alt="">
+               </div>
+               <div class="image-cctv">
+                  <img id="lanImageGlow" src="assets/images/2nd/2ND-LAN-GLOW.png" alt="">
+               </div>
+               <div class="image-cctv">
+                  <img id="wifiImageGlow" src="assets/images/2nd/2ND-WIFI-GLOW.png" alt="">
+               </div>
+               <div class="image-cctv">
+                  <img id="telephoneImageGlow" src="assets/images/2nd/2ND-TELEPHONE-GLOW.png" alt="">
+               </div>
+               <div class="image-cctv">
+                  <img id="racImageGlow" src="assets/images/2nd/2ND-RACK-GLOW.png" alt="">
+               </div>
+               <!-- <div class="image-glowing-server">
+                  <img src="assets/images/SERVER-BOX.png" alt="">
+               </div> -->
+               <!---------------------- IMG-PORTION --------------------------->
+
+               <!---------------------- INFO-PORTION --------------------------->
+               <div class="top-bar d-flex">
+                  <div class="box d-flex">
+                     <div class="cctv-btn">
+                        <button class="d-flex small" onclick="toggleImage('cctvImageGlow')">
+                           <img src="assets/images/CCTV-btn.png" alt=""> - Dome (UNV) -
+                        </button>
+                        <button class="d-flex" onclick="toggleImage('cctvImageRedGlow')">
+                           <img src="assets/images/CCTV-RED-btn.png" alt=""> - Red CCTV -
+                        </button>
+                        <button class="d-flex" onclick="toggleImage('lanImageGlow')">
+                           <img src="assets/images/LAN-btn.png" alt=""> - Lan -
+                        </button>
+                        <button class="d-flex" onclick="toggleImage('wifiImageGlow')">
+                           <img src="assets/images/WIFI-btn.png" alt=""> - WiFi AP -
+                        </button>
+                        <button class="d-flex" onclick="toggleImage('telephoneImageGlow')">
+                           <img src="assets/images/TELEPHONE-btn.png" alt=""> - Tele Phone -
+                        </button>
+                        <button class="d-flex" onclick="toggleImage('racImageGlow')">
+                           <img src="assets/images/RAC-btn.png" alt=""> - Rac -
+                        </button>
+                     </div>
+                     <div class="btn-text">
+                        <div>
+                           <h6>IPC3614LE-ADF28K</h6>
+                           <p>Quantity: </p>
+                        </div>
+                        <div>
+                           <h6>Specification:</h6>
+                           <p>IPC3614LE-ADF28KMC</p>
+                        </div>
+                        <div>
+                           <h6>Specification:</h6>
+                           <p>Quantity:</p>
+                        </div>
+                        <div>
+                           <h6>HP Aruba</h6>
+                           <p>Model no AP22</p>
+                        </div>
+                        <div>
+                           <h6>Specification:</h6>
+                           <p>Quantity:</p>
+                        </div>
+                        <div>
+                           <h6>Specification:</h6>
+                           <p>Quantity:</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!---------------------- INFO-PORTION --------------------------->
+
+               <!---------------------- PAGE-INFO-PORTION --------------------------->
+               <div class="side-bar d-flex">
+                  <div class="page-box">
+                     <p>Select Floors:</p>
+                     <select class="page_Select">
+                        <option value="index.html">1st Floor</option>
+                        <option value="2nd-index.html" selected>2nd Floor</option>
+                        <option value="3rd-index.html">3rd Floor</option>
+                        <option value="4th-index.html">4th Floor</option>
+                     </select>
+                  </div>
+               </div>
+               <!---------------------- PAGE-INFO-PORTION --------------------------->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!------------------------------- MAIN SECTION COMPLETED -------------------------------->
+
+
+   <!------------------- SCRIPT FOR BOOTSRAP-VERSION 5.0.2 START -------------------->
+   <script src="assets/js/bootstrap-5.0.2-bundle/bootstrap-bundle-min.js"></script>
+   <!------------------- SCRIPT FOR BOOTSRAP-VERSION 5.0.2 COMPLETED -------------------->
+
+   <!------------------- SCRIPT FOR MAIN START -------------------->
+   <script src="assets/js/main/main.js"></script>
+   <script src="assets/js/main/select.js"></script>
+   <!------------------- SCRIPT FOR MAIN COMPLETED -------------------->
+</body>
+
+</html>
