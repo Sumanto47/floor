@@ -355,6 +355,9 @@ section.main .jumbotron {
 
 /*---------------------------- MODAL CSS COMPLETE -----------------------------*/
 
+#myBtn {
+  cursor: pointer;
+}
 .modal {
   display: none; 
   position: fixed; 
