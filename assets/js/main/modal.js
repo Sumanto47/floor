@@ -1,7 +1,5 @@
 var modal = document.getElementById("myModal");
-
 var btns = document.getElementsByClassName("myBtn");
-
 var span = document.getElementsByClassName("close")[0];
 
 for (var i = 0; i < btns.length; i++) {
